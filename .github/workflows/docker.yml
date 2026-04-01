@@ -35,7 +35,7 @@ jobs:
       - name: Build and push image
         uses: docker/build-push-action@v6
         with:
-          context: ./project/app
-          file: ./project/app/Dockerfile
+          context: ./app
+          file: ./app/Dockerfile
           push: true
           tags: ismailm05/todo-microservice:latest
