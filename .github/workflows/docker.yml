@@ -38,4 +38,4 @@ jobs:
           context: ./app
           file: ./app/Dockerfile
           push: true
-          tags: ismailm05/todo-microservice:latest
+          tags: ismail702/todo-microservice:latest
